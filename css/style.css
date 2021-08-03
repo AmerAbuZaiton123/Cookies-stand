@@ -1,1 +1,40 @@
 
+body {
+    background-color: yellowgreen;
+    color: #0d0d0d;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body header {
+    color: #0d0d0d;
+   text-align: center;
+}
+
+nav a {
+    background-color: #01190a;
+    border-bottom: 25px; /* for rounded corners */
+    padding: 8px;
+    text-decoration: none;
+    color: orangered;
+}
+
+img {
+    margin-bottom: 40px;
+}
+
+p {
+    font-size: medium;
+    margin-top: 60px;
+}
+
+article {
+    margin-top: 40px;
+}
+
+h3 {
+    background-color: rgba(38,65,67,0.2);
+}
+
+li {
+    list-style-type: disc;
+}
