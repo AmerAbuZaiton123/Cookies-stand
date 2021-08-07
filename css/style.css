@@ -38,3 +38,21 @@ h3 {
 li {
     list-style-type: disc;
 }
+
+
+#table1 td, th {
+    text-align: center;
+    padding: 8px;
+    
+    border: 1px solid green;
+}
+
+#table2 td, th {
+    text-align: center;
+    border: 1px solid green;
+}
+
+footer {
+    height: 80px;
+}
+/*table,td,th{border: 3px solid black }*/
