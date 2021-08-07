@@ -1,58 +1,70 @@
+table{border:3px solid black;}
 
-body {
-    background-color: yellowgreen;
-    color: #0d0d0d;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+* {box-sizing: border-box;}
+
+img{width: 100%;}
+
+body
+{ background-color:silver ;
+    width: 1100px;
+    margin: auto;
+}
+ 
+header
+{   display: flex;
+    padding: 10px 50px;
+    align-items: center; 
+    background-color:gray;
 }
 
-body header {
-    color: #0d0d0d;
-   text-align: center;
+header img
+{
+    width: 200px;
+}
+header nav a{ text-decoration: none; color: white;}
+header nav
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+main
+{
+       width: 960px;
+    margin: 30px auto;
+
 }
 
-nav a {
-    background-color: #01190a;
-    border-bottom: 25px; /* for rounded corners */
-    padding: 8px;
+main section:nth-child(2) 
+{
+    display: grid;
+   /* grid-template-columns: 1fr 1fr 1fr;*/
+   grid-template-columns:auto auto auto ;
+  gap:30px;
+   margin: 30px 0;
+   line-height:1.5 ;
+}
+main section:nth-child(3) article h2
+{ font-weight: 700;
+    font-size: 24px;
+
+}
+main section:nth-child(3) article p
+{
+        height: 319px;
+        overflow: scroll;
+        margin: 10px 0; 
+        line-height:1.2;
+}
+main section:nth-child(3) article a
+{padding: 10px 70px ;
+    background-color: black;
     text-decoration: none;
-    color: orangered;
+    display: inline-block;
+    color: wheat  ;}
+main section:nth-child(3)
+{ 
+     display: grid;
+     grid-template-columns: auto auto;
+     gap:30px;
 }
-
-img {
-    margin-bottom: 40px;
-}
-
-p {
-    font-size: medium;
-    margin-top: 60px;
-}
-
-article {
-    margin-top: 40px;
-}
-
-h3 {
-    background-color: rgba(38,65,67,0.2);
-}
-
-li {
-    list-style-type: disc;
-}
-
-
-#table1 td, th {
-    text-align: center;
-    padding: 8px;
-    
-    border: 1px solid green;
-}
-
-#table2 td, th {
-    text-align: center;
-    border: 1px solid green;
-}
-
-footer {
-    height: 80px;
-}
-/*table,td,th{border: 3px solid black }*/
