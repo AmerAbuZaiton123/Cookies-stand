@@ -86,7 +86,7 @@ function tblFooter() {
   for (let i = 0; i < hours.length; i++) {
     let dailyTotal = 0;
     for (let j = 0; j < all.length; j++) {
-      dailyTotal += all[j].numOFCookies[j]
+      dailyTotal += all[j].numOFCookies[i]
     }
     let thElement = document.createElement('th');
     thElement.textContent = dailyTotal; 
